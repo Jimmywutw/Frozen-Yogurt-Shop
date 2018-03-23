@@ -1,0 +1,30 @@
+@import 'default';
+@import 'bourbon/bourbon';
+
+
+.header{
+	@include  border-radius(10px);
+	background-color:$background-color;
+	.header-title{
+		@extend %message;
+
+		
+	}
+}
+.content{
+	@include border-color(#a60b55 #76cd9c null #e8ae1a);
+	@include border-width(1em solid 20px);
+	border: 1px solid red;
+	background-color:lighten($background-color,30%);
+	
+	
+	.content-title{		
+		@extend %message;
+		font:{
+			size:32px;
+			weight:bold;
+			family:serif;
+		}
+		}
+
+	}

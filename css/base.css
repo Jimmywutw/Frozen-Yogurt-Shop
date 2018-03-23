@@ -1,0 +1,25 @@
+.header .header-title, .content .content-title {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: blue; }
+
+.header {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  background-color: rgba(22, 22, 22, 0.5); }
+
+.content {
+  border-top-color: #a60b55;
+  border-right-color: #76cd9c;
+  border-left-color: #e8ae1a;
+  border-width: 1em solid 20px;
+  border: 1px solid red;
+  background-color: rgba(99, 99, 99, 0.5); }
+  .content .content-title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: serif; }
+
+/*# sourceMappingURL=base.css.map */

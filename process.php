@@ -2,17 +2,19 @@
 
 
 
-     if(isset($_post['submit'])){
+    if(isset($_POST['submit'])) {
 
 
-     	echo "it works";
+     	$to = "jimmy20640@gmail.com";
+		$subject = "subject";
+		$name = "name";
+		$email = "email" . "\r\n" .
+		"CC: somebodyelse@example.com";
+
+		mail($to,$subject,$name,$email);
 
 
-     }
-
-
-
-
+    }
 
 
 
